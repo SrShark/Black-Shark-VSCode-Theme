@@ -1,0 +1,24 @@
+{
+  "name": "black-shark-vscode-theme",
+  "displayName": "Black Shark",
+  "description": "VSCode Theme",
+  "version": "0.0.1",
+  "publisher": "SrShark",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Black Shark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-shark.json"
+      }
+    ]
+  }
+}
