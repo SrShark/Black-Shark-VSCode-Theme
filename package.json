@@ -15,9 +15,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Black Shark",
+        "label": "Black Shark - Default",
         "uiTheme": "vs-dark",
         "path": "./themes/black-shark.json"
+      },
+      {
+        "label": "Black Shark - Deep Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-shark-deep-ocean.json"
       }
     ]
   }
