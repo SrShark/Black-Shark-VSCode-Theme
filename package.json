@@ -2,7 +2,7 @@
   "name": "black-shark-vscode-theme",
   "displayName": "Black Shark",
   "description": "VSCode Theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "SrShark",
   "license": "MIT",
   "engines": {

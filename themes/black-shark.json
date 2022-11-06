@@ -76,6 +76,7 @@
 				"meta.tag",
 				"keyword.other.template",
 				"keyword.other.substitution",
+				"keyword.operator.type.annotation",
 				"punctuation.definition.tag",
 				"punctuation.separator",
 				"punctuation.terminator",
