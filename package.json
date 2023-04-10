@@ -2,16 +2,19 @@
   "name": "black-shark-vscode-theme",
   "displayName": "Black Shark",
   "description": "VSCode Theme",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "publisher": "SrShark",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SrShark/Black-Shark-VSCode-Theme.git"
+  },
   "engines": {
     "vscode": "^1.73.0"
   },
   "categories": [
     "Themes"
   ],
-  "icon": "./icon.png",
   "contributes": {
     "themes": [
       {

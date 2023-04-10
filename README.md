@@ -1,4 +1,19 @@
-# Black Shark VSCode Theme
+# Black Shark Theme
+
+#### Prerequisites:
+* Install vscode-vsce package: https://github.com/microsoft/vscode-vsce
+
+#### Compile the extension:
+
+```bash
+vsce package
+```
+
+#### Install the extension:
+
+```bash
+code --install-extension <extesion-package.vsix>
+```
 
 ## For more information
 

@@ -1,20 +1,5 @@
 {
-	"$schema": "vscode://schemas/color-theme",
-	"name": "black-shark",
-	"semanticHighlighting": true,
-	"baseColors": [
-		"#6272A4",
-		"#FFFFFF",
-		"#ffffff",
-		"#FF5370",
-		"#FF52A6",
-		"#52FDFF",
-		"#52FFAB",
-		"#C485FF",
-		"#FFA989",
-		"#FEFF9F",
-		"#00000050",
-	],
+	"name": "Black Shark - Default",
 	"colors": {},
 	"tokenColors": [
 		{

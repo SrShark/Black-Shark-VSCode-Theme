@@ -1,21 +1,5 @@
 {
-	"$schema": "vscode://schemas/color-theme",
-	"name": "black-shark",
-	"semanticHighlighting": true,
-	"baseColors": [
-		// "#161821" background
-		"#6272A4",
-		"#FFFFFF",
-		"#ffffff",
-		"#FF5370",
-		"#FF52A6",
-		"#52FDFF",
-		"#52FFAB",
-		"#C485FF",
-		"#FFA989",
-		"#FEFF9F",
-		"#00000050",
-	],
+	"name": "Black Shark - Deep Ocean",
 	"colors": {
 		"activityBar.background": "#0f1117",
 		"activityBar.border": "#0f1117",
