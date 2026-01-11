@@ -2,7 +2,7 @@
   "name": "black-shark-vscode-theme",
   "displayName": "Black Shark",
   "description": "VSCode Theme",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "SrShark",
   "license": "MIT",
   "repository": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/SrShark/Black-Shark-VSCode-Theme.git"
   },
   "engines": {
-    "vscode": "^1.73.0"
+    "vscode": "^1.108.0"
   },
   "categories": [
     "Themes"
@@ -18,7 +18,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Black Shark - Default",
+        "label": "Black Shark",
         "uiTheme": "vs-dark",
         "path": "./themes/black-shark.json"
       },
@@ -26,11 +26,6 @@
         "label": "Black Shark - Deep Ocean",
         "uiTheme": "vs-dark",
         "path": "./themes/black-shark-deep-ocean.json"
-      },
-      {
-        "label": "Mocha Shark - Catppuccin",
-        "uiTheme": "vs-dark",
-        "path": "./themes/mocha-shark.json"
       }
     ]
   }
