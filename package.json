@@ -26,6 +26,11 @@
         "label": "Black Shark - Deep Ocean",
         "uiTheme": "vs-dark",
         "path": "./themes/black-shark-deep-ocean.json"
+      },
+      {
+        "label": "Mocha Shark - Catppuccin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mocha-shark.json"
       }
     ]
   }
