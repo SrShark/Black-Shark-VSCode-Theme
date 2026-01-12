@@ -191,8 +191,8 @@
 		"editorWidget.resizeBorder": "#353552",
 		"editorLightBulb.foreground": "#f9e2af",
 		"editorError.foreground": "#f38ba8",
-		"editorError.border": "#1e1e2e",
-		"editorError.background": "#1e1e2e",
+		"editorError.border": "#00000000",
+		"editorError.background": "#00000000",
 		"editorWarning.foreground": "#fab387",
 		"editorWarning.border": "#1e1e2e",
 		"editorWarning.background": "#1e1e2e",
@@ -622,30 +622,75 @@
 			}
 		},
 		{
+			"name": "Definition, Misc",
+			"scope": [
+				"keyword.control.default",
+				"keyword.control.import",
+				"meta.block",
+				"meta.export.default",
+				"meta.function.expression",
+				"meta.import",
+				"meta.object-binding-pattern-variable",
+				"meta.parameters",
+				"punctuation.definition.parameters",
+				"storage.type.interface"
+			],
+			"settings": {
+				"foreground": "#e554be",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "Interface & Types",
+			"scope": [
+				"keyword.operator.type.annotation",
+				"meta.interface",
+				"punctuation.definition.typeparameters"
+			],
+			"settings": {
+				"foreground": "#52fdff"
+			}
+		},
+		{
+			"name": "Interface declaration",
+			"scope": [
+				"entity.name.type.interface"
+			],
+			"settings": {
+				"foreground": "#52fdff",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"constant.other.color",
-				"meta.tag",
-				"keyword.other.template",
+				"entity.other.inherited-class",
 				"keyword.other.substitution",
-				"keyword.operator.type.annotation",
-				"punctuation.definition.tag",
-				"punctuation.separator",
-				"punctuation.terminator",
-				"punctuation.destructuring",
+				"keyword.other.template",
+				"meta.arrow",
+				"meta.brace.round",
+				"meta.brace.square",
+				"meta.object.member",
+				"meta.objectliteral",
+				"meta.objectliteral",
+				"meta.tag",
+				"meta.var.expr",
+				"new.expr",
+				"punctuation.definition.binding-pattern.object",
 				"punctuation.accessor",
-				"punctuation.definition.dictionary",
 				"punctuation.definition.array",
-				"punctuation.definition.tag.html",
+				"punctuation.definition.binding-pattern",
+				"punctuation.definition.dictionary",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag",
 				"punctuation.definition.template-expression",
-				"punctuation.definition.parameters",
-				"punctuation.definition.binding-pattern",
-				"punctuation.definition.block",
-				"meta.brace.round",
-				"meta.brace.square"
+				"punctuation.destructuring",
+				"punctuation.section.embedded",
+				"punctuation.separator",
+				"punctuation.terminator"
 			],
 			"settings": {
 				"foreground": "#52fdff"
@@ -716,7 +761,6 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -786,6 +830,16 @@
 			],
 			"settings": {
 				"foreground": "#52fdff"
+			}
+		},
+		{
+			"name": "CSS, Misc",
+			"scope": [
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.section.property-list.end.bracket.curly.css"
+			],
+			"settings": {
+				"foreground": "#e554be"
 			}
 		},
 		{
